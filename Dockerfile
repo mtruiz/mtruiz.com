@@ -3,7 +3,7 @@ FROM ruby:3.1-alpine3.15
 RUN apk add --update \
     build-base \
     gcompat \
-		postgresql-client \
+    postgresql-client \
     postgresql-dev \
     tzdata \
     && rm -rf /var/cache/apk/*
