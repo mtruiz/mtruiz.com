@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>App</title>
+    <title>Matt Ruiz</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="I'm a software engineering leader with 18+ years of experience in designing and developing complex web applications." />
+    <meta property="og:title" content="Matt Ruiz" />
+    <meta property="og:description" content="I'm a software engineering leader with 18+ years of experience in designing and developing complex web applications." />
+    <meta property="og:image" content="https://mtruiz.com/profile-photo.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@matthewtruiz">
+    <meta name="twitter:title" content="Matt Ruiz">
+    <meta name="twitter:description" content="I'm a software engineering leader with 18+ years of experience in designing and developing complex web applications.">
+    <meta name="twitter:image" content="https://mtruiz.com/profile-photo.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
-
-  <body>
+  <body class="bg-indigo-100">
     <%= yield %>
   </body>
 </html>
